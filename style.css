@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 90dvw;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 30px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select {
+    height: 30px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+#list-title {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+
+#gyms-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    list-style: decimal;
+}

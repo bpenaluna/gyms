@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Finder</title>
+    <script type="module" src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <a href="./">Home</a>
+        <a href="./gymForm/">Submit gym</a>
+    </header>
+    <h1>Gym Finder</h1>
+    <div id="location">
+        <select id="country">
+            <option>--Choose a country--</option>
+            <option id="uk" value="United Kingdom">United Kingdom</option>
+        </select>
+        <select id="city">
+            <option>--Choose a city--</option>
+        </select>
+        <button id="submit">Submit</button>
+    </div>
+    <p id="list-title">Gyms</p>
+    <ul id="gyms-list"></ul>
+</body>
+</html>
